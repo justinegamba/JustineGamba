@@ -35,6 +35,13 @@
       margin-bottom: 2rem;
     }
 
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
     button {
       background-color: #a8bfa0;
       color: #1e1e1e;
@@ -57,7 +64,10 @@
     <p>
       A passionate mechanical engineering student at SDSU with a focus on energy efficiency, sustainable design, and biomedical innovation. I love turning technical ideas into real-world solutions.
     </p>
-    <button onclick="location.href='resume.html'">View My Resume</button>
+    <div class="buttons">
+      <button onclick="location.href='resume.html'">View My Resume</button>
+      <button onclick="window.open('https://www.linkedin.com/in/justinegamba/', '_blank')">Visit My LinkedIn</button>
+    </div>
   </div>
 </body>
 </html>
